@@ -1,0 +1,1 @@
+var rafageist = angular.module('rafageist', []);
