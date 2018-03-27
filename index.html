@@ -42,7 +42,7 @@
     </nav>
     <div class="container">
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><span> </span><img class="img-circle img-responsive device" src="assets/img/rafamadrid.jpg"></div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><span> </span><img class="img-rounded img-responsive device" src="assets/img/rafamadrid.jpg"></div>
             <div class="col-lg-8 col-md-8 col-sm-6">
                 <h1>Rafa Rodríguez</h1>
                 <p>Software architect &amp; Full stack developer </p>
@@ -70,35 +70,51 @@
     <div class="container">
         <h1>My origins (<em>from 1997</em>)</h1>
         <h4>Amstrad PCW + CPM + <a href="https://en.wikipedia.org/wiki/Mallard_BASIC" target="_blank">Mallard BASIC</a> + AT 286 + GW BASIC + MS-DOS 6.22 + Amstrad XT + QBasic + Borland Pascal</h4>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-rounded img-responsive" src="assets/img/001.jpg"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-rounded img-responsive" src="assets/img/hqdefault.jpg"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-rounded img-responsive" src="assets/img/pcw51.gif"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p> </p>
+        <div class="modal fade" role="dialog" tabindex="-1" id="memory-images">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        <h4 class="modal-title">My memory images from 1997</h4></div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-rounded img-responsive" src="assets/img/001.jpg"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-rounded img-responsive" src="assets/img/hqdefault.jpg"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-rounded img-responsive" src="assets/img/pcw51.gif"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p> </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-responsive" src="assets/img/600px-Ibm_px_xt_color.jpg"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-responsive" src="assets/img/95609-Where_In_The_World_Is_Carmen_Sandiego_Enhanced_(1991)(Broderbund_Software_Inc)-3.png"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-rounded img-responsive" src="assets/img/amstradpc1640hd20.jpg"></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p> </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-responsive" src="assets/img/QBasicGorillas.gif"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-responsive" src="assets/img/gw.png"></div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4"><img class="img-responsive" src="assets/img/qb45.png"></div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-responsive" src="assets/img/600px-Ibm_px_xt_color.jpg"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-responsive" src="assets/img/95609-Where_In_The_World_Is_Carmen_Sandiego_Enhanced_(1991)(Broderbund_Software_Inc)-3.png"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-rounded img-responsive" src="assets/img/amstradpc1640hd20.jpg"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p> </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-responsive" src="assets/img/QBasicGorillas.gif"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-responsive" src="assets/img/gw.png"></div>
-            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2"><img class="img-responsive" src="assets/img/qb45.png"></div>
-        </div>
+        <button class="btn btn-default" type="button" id="show-memory-images">Memory images</button>
     </div>
     <section></section>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>
