@@ -154,3 +154,30 @@ section.testimonials{
   }
 }
 
+#backtop{
+  background:url(../../assets/img/backtop.jpg) no-repeat;
+  background-size:cover;
+}
+
+.text-white{
+  color:white;
+}
+
+.text-gray{
+  color:gray;
+}
+
+.float-right{
+  float:right;
+}
+
+.float-bottom{
+  margin-bottom:0px;
+  position:absolute;
+  margin-left:-10px;
+}
+
+.progress{
+  background-color:transparent;
+}
+
