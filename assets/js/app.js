@@ -17,5 +17,9 @@ $(function(){
     
     $("#show-esd-10").click(function(){
         $("#esd-10").modal();
-    })
+    });
+    
+    $("#show-ancora-goh").click(function(){
+        $("#ancora-goh").modal();
+    });
 });
