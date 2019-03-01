@@ -23,9 +23,8 @@
     <link rel="stylesheet" href="assets/css/Hero-Technology.css">
     <link rel="stylesheet" href="assets/css/Google-Style-Login.css">
 </head>
-<!--{imported}-->
-<!--{imported}-->
 <body>
+<!--{imported}-->
+<!--{imported}-->
 </body>
-
 </html>

@@ -2,10 +2,11 @@
 
 # Re-creating index.html
 rm -f ./index.html
-cp ./.div/design/index.html ./index.html
+cp ./.div/index.tpl ./index.html
+div inject -ff ././div/design/index.html -fb "<div>--</div>" -tf ././index.html -tb "<!--{imported}-->"
 
 # Inject google analytics
-div @inject -ff ./.div/pieces/google-analytics.html -fb "<!--{analytics}-->" -tf ./index.html -ta "<head>"
+# div @inject -ff ./.div/pieces/google-analytics.html -fb "<!--{analytics}-->" -tf ./index.html -ta "<head>"
 
 # Re-creating assets
 rm -f -R ./assets
