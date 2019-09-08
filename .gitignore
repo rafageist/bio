@@ -1,2 +1,5 @@
+.div
 .project
 .idea/*
+build.bat
+build.sh
