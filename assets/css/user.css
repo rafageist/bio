@@ -1,3 +1,6 @@
+body {
+  background: #eeeeee;
+}
 .navbar {
   margin-bottom: 0;
   border: none;
@@ -157,7 +160,7 @@ section.testimonials {
 
 #backtop {
   background: url(../../assets/img/backtop.jpg) no-repeat;
-  background-size: cover;
+  background-size: cover;  
 }
 
 .text-white {
@@ -194,3 +197,14 @@ section.testimonials {
   color: orange;
 }
 
+p.social-links {
+  margin-top: 10px;
+}
+
+
+p.social-links span > a {
+  color: black;
+  text-decoration: none;
+  margin:3px;
+  font-size: 1em;
+}
