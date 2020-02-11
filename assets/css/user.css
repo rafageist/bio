@@ -208,3 +208,7 @@ p.social-links span > a {
   margin:3px;
   font-size: 1em;
 }
+
+.card {
+  margin-bottom: 1rem;
+}
