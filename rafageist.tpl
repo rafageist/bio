@@ -27,10 +27,16 @@
 		<p><a href="{$website}">{$website}</a></p>
 		<p><a href="mailto:{$email}">{$email}</a></p>
 
-		<table>
+		<table width="100%">
 			<tr>
-				<td valign="top">(( skills ))</td>
-				<td valign="top">(( experience ))</td>
+				<td valign="top">
+					(( skills ))
+					(( languages ))
+					(( events ))
+				</td>
+				<td valign="top">
+					(( experience ))
+				</td>
 			</tr>
 		</table>
 
