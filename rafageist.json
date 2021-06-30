@@ -84,14 +84,14 @@
 			"title": "Áncora, Timetabling Solution for Schools",
 			"roles": ["founder", "owner"],
 			"company": "Divengine Software Solutions N.V",
-			"website": "https://divengine.com"
+			"links": ["https://divengine.com"]
 		}, {
 			"date": "2011-today",
 			"type": "entrepreneurship/opensource",
 			"title": "Div PHP Software Solutions",
 			"roles": ["founder", "developer"],
 			"company": "Divengine Software Solutions N.V",
-			"website": "https://divengine.com"
+			"links": ["https://divengine.com"]
 		}, {
 			"date": "2012-today",
 			"type": "entrepreneurship/startup",
