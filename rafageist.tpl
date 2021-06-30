@@ -103,7 +103,7 @@
 		{{events
 		<h2>Events</h2>
 		[$events]
-			<b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]<br/>
+			<p><b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]</p>
 		[/$events]
 		events}}
 	</body>
