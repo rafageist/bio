@@ -105,7 +105,7 @@
 				?$links
 				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
 				$links?
-				
+				<br/>
 			[/$projects]
 		[/$experience]
 		experience}}
