@@ -49,9 +49,8 @@
 <h3>{$title}</h3>
 <p>{$date}</p>
 <p>{$type}</p>
-<p>Company: {$company}</p>
+<p>Company: {$company} [$links]<a href="{$value}">{$value}</a>[/$links]</p>
 <p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
-
 [/$experience]
 </body>
 </html>
