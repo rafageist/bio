@@ -7,7 +7,7 @@
 			}
 			
 			span.chip {
-				background: #eeeeee;
+				color: #eeeeee;
 				margin-right: 5px;
 			}
 			
