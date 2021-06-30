@@ -41,11 +41,9 @@
 			
 			p.item {
 				text-indent: 5px;	
+				margin-bottom: 0px;
 			}
 			
-			p.item:first-line {
-				text-indent: 0px !important;
-			}
 			
 			
 		</style>
@@ -87,7 +85,7 @@
 			[$skills]
 				<td width="50%" valign="top">
 					<h3>{$name}</h3>
-					[$details]<p class="item">- {$value}</p>[/$details]
+					[$details]<p class="item">{$value}</p>[/$details]
 				</td>
 				{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
 			[/$skills]
@@ -110,7 +108,7 @@
 		[$experience]
 			<h3>{$company}</h3>
 			[$projects]
-				<p class="item"><b>- {$date}: {$title}</b>,<br/>
+				<p class="item"><b>{$date}: {$title}</b>,<br/>
 				[$tags]<span class="chip">{$value}</span>[/$tags] <br/>
 				[$roles]<span class="chip2">{$value}</span>[/$roles]
 				?$links <br/>
