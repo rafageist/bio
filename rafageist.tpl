@@ -13,6 +13,14 @@
 				border-radius: 3px;
 			}
 			
+			span.chip2 {
+				background: #gray;
+				color: white;
+				margin-right: 5px;
+				padding: 5px;
+				border-radius: 3px;
+			}
+			
 			li.skill {
 				
 			}
@@ -92,11 +100,10 @@
 			<h3>{$company}</h3>
 			[$projects]
 				<h4>{$date}: {$title}</h4>
-				<p>[$tags]<span class="chip">{$value}</span>[/$tags]</p>
 				?$links
 				<p>[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
 				$links?
-				<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
+				<p>[$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags]</p>
 			[/$projects]
 		[/$experience]
 		experience}}
