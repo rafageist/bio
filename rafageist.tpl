@@ -63,11 +63,17 @@
 
 		{{skills
 		<h2>Skills</h2>
-		[$skills]
-			<h3>{$name}</h3>
-			[$details]- {$value}<br/>[/$details]
-			</ul>
-		[/$skills]
+		<table>
+			<tr>
+			[$skills]
+				<td>
+					<h3>{$name}</h3>
+					[$details]- {$value}<br/>[/$details]
+				</td>
+				{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
+			[/$skills]
+			</tr>
+		</table>
 		skills}}
 
 		{{language
