@@ -91,9 +91,9 @@
 		<h2>Experience</h2>
 		[$experience]
 			<h3>{$date}: {$title}</h3>
-			<p>[$tags]<span class="chip">{$value}</span>[/$tags]</p>
-			<p>for {$company}<br/>[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
-			<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
+			<p>Category: [$tags]<span class="chip">{$value}</span>[/$tags]</p>
+			<p>Company: {$company} &nbsp; [$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
+			<p>Roles: [$roles]<span class="chip">{$value}</span>[/$roles]</p>
 		[/$experience]
 		experience}}
 
