@@ -58,8 +58,8 @@
 				<td valign="top" width="50%">
 					<table width="100%" align="left">
 						<tr>
-							<td valign="top">
-								<img class="avatar" src="{$avatar}" height="100">
+							<td valign="top" width="50%">
+								<img class="avatar" src="{$avatar}" width="90%">
 							</td>
 							<td valign="top">
 								<p>{$resume}</p>
