@@ -7,14 +7,11 @@
 			}
 			
 			span.chip {
-				color: #eeeeee;
 				margin-right: 5px;
 			}
 			
 			span.chip2 {
 				font-weight: bold;
-				color: gray;
-				color: white;
 				margin-right: 5px;
 			}
 			
