@@ -89,8 +89,8 @@
 		<h2>Contact</h2>
 		<b>{$name}</b> 
 		<p>{$company.role} of {$company.name}</p>
-		<p>Contact: {$company.phone} | <a href="{$website}">{$company.link}</a> </p>
-		<p>{$company.location} | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+		<p>Contact: {$company.phone} | {$company.location}</p>
+		<p><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 		contact}}
 		
 		{{skills
