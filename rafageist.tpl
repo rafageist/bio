@@ -46,9 +46,10 @@
 </ul>
 <h2>Experience</h2>
 [$experience]
-<p>{$date}</p>
 <h3>{$title}</h3>
+<p>{$date}</p>
 <p>{$type}</p>
+<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
 [/$experience]
 </body>
 </html>
