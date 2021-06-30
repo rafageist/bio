@@ -9,16 +9,13 @@
 			span.chip {
 				background: #eeeeee;
 				margin-right: 5px;
-				padding: 5px;
-				border-radius: 3px;
 			}
 			
 			span.chip2 {
-				background: gray;
+				font-weight: bold;
+				color: gray;
 				color: white;
 				margin-right: 5px;
-				padding: 5px;
-				border-radius: 3px;
 			}
 			
 			li.skill {
