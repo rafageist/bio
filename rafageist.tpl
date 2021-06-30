@@ -10,6 +10,10 @@
 			margin: 5px;
 			padding: 5px;
 		}
+		
+		li.skill {
+			
+		}
 	</style>
 	</head>
 <body>
@@ -27,7 +31,7 @@
 		<h3>{$name}</h3>
 		<ul>
 		[$details]
-			<li>{$value}</li>
+			<li class="skill">{$value}</li>
 		[/$details]
 		</ul>
 	[/$skills]
