@@ -38,7 +38,12 @@
 		<li>{$name}: {$description}</li>
 	[/$languages]
 	</ul>
+<h2>Education</h2>
+<ul>
+[$education]
+	<li>{$date}: {$title}</li>
+[/$education]
+</ul>
+
 </body>
-
-
 </html>
