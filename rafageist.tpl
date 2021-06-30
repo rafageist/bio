@@ -15,13 +15,18 @@
 			li.skill {
 				
 			}
+			
+			img.avatar {
+				margin:5px;	
+				border-radius: 5px;
+			}
 		</style>
 	</head>
 	<body>
 		<table width="90%" align="center">
 			<tr>
 				<td valign="top">
-					<img src="{$avatar}" width="200">
+					<img class="avatar" src="{$avatar}" width="200">
 				</td>
 				<td valign="top">
 					<h1>{$name}</h1>
