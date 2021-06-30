@@ -62,7 +62,6 @@
 								<img class="avatar" src="{$avatar}" height="100">
 							</td>
 							<td valign="top">
-								<h1>{$name}</h1>
 								<p>{$resume}</p>
 								<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
 								
@@ -87,7 +86,8 @@
 		</table>
 	
 		{{contact
-		<h2>Contact</h2>	
+		<h2>Contact</h2>
+		<h1>{$name}</h1>	
 		<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 		<p>{$company.name}</p>
 		<p>{$company.phone} | <a href="{$website}">{$company.link}</a></p>
