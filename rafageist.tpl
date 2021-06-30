@@ -104,7 +104,7 @@
 				<p><b>- {$date}: {$title}</b>,<br/>
 				[$tags]<span class="chip">{$value}</span>[/$tags] <br/>
 				[$roles]<span class="chip2">{$value}</span>[/$roles]
-				?$links
+				?$links<br/>
 				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
 				$links?
 				</p>
