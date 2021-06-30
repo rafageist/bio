@@ -12,7 +12,10 @@
 			
 			span.chip2 {
 				font-weight: bold;
-				margin-right: 5px;
+				margin-right: 3px;
+				padding: 2px;
+				background: gray;
+				color: white;
 			}
 			
 			li.skill {
