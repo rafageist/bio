@@ -56,11 +56,11 @@
 		}
 	], 
 	"languages": [		
-		"es": {
+		{
 			"name": "Spanish",
 			"description": "Native speaker"
 		},
-		"en": {
+		{
 			"name": "English",
 			"description": "Oral: medium, Writen: fair"
 		}
