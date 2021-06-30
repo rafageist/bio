@@ -37,6 +37,10 @@
 			h2 {
 				font-size: 15px !important;
 			}
+			h4 {
+				font-size: 12px !important;
+			}
+			
 		</style>
 	</head>
 	<body>
