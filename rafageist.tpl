@@ -87,7 +87,7 @@
 			[$skills]
 				<td width="50%" valign="top">
 					<h3>{$name}</h3>
-					[$details]- {$value}<br/>[/$details]
+					[$details]<p class="item">- {$value}</p>[/$details]
 				</td>
 				{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
 			[/$skills]
