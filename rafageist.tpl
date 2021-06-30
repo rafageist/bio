@@ -69,10 +69,11 @@
 							</td>
 						</tr>
 					</table>
-					<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+					
 					(( skills ))
 				</td>
 				<td valign="top">
+					(( contact ))
 					(( education ))
 					(( language ))
 					(( experience ))
@@ -85,7 +86,13 @@
 			</tr>
 		</table>
 	
-		
+		{{contact
+		<h2>Contact</h2>	
+		<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+		<p>{$company.name}</a></p>
+		<p>{$company.phone}</a></p>
+		<p><a href="{$website}">{$company.link}</a>{$company.link}</a></p>
+		contact}}
 		
 		{{skills
 		<h2>Skills</h2>
