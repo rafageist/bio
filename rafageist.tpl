@@ -21,5 +21,12 @@
 <p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
 <p><a href="{$website}">{$website}</a></p>
 <p><a href="mailto:{$email}">{$email}</a></p>
+<h2>Skills</h2>
+[$skills]
+	<h3>{$name}</h3>
+	[$details]
+		<p>{$value}</p>
+	[/$details]
+[$/skills]
 </body>
 </html>
