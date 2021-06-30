@@ -41,11 +41,11 @@
 			<tr>
 				<td valign="top" width="50%">
 					(( skills ))
-					(( language ))
 					(( events ))
 				</td>
 				<td valign="top">
 					(( education ))
+					(( language ))
 					(( experience ))
 				</td>
 			</tr>
@@ -84,10 +84,9 @@
 		{{experience
 		<h2>Experience</h2>
 		[$experience]
-		<h3>{$title}</h3>
-		<p>{$date}</p>
-		<p>{$type}</p>
-		<p>Company: {$company}<br/>[$links]<a href="{$value}">{$value}</a>[/$links]</p>
+		<h3>{$date}: {$title}</h3>
+		<p><b>{$type}</b> for {$company}<br/>[$links]<a href="{$value}">{$value}</a>[/$links]</p>
+		
 		<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
 		[/$experience]
 		experience}}
