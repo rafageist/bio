@@ -11,9 +11,8 @@
 			}
 			
 			span.chip2 {
-				font-weight: bold;
+				text-decoration: underline;
 				margin-right: 3px;
-				padding: 2px;
 			}
 			
 			li.skill {
