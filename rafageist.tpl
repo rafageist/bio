@@ -125,7 +125,7 @@
 
 		{{events
 		<h2>Events</h2>
-		<table width ="100%">
+		<table width ="90%" align="center">
 			<tr>
 			[$events]
 				<td width="50%" valign="top">
