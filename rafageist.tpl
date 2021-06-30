@@ -60,10 +60,11 @@
 								<h1>{$name}</h1>
 								<p>{$resume}</p>
 								<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
-								<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+								
 							</td>
 						</tr>
 					</table>
+					<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 					(( skills ))
 					(( events ))
 				</td>
