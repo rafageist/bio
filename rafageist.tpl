@@ -89,10 +89,15 @@
 		{{experience
 		<h2>Experience</h2>
 		[$experience]
-			<h3>{$date}: {$title}</h3>
-			<p>Category: [$tags]<span class="chip">{$value}</span>[/$tags]</p>
-			<p>Company: {$company} &nbsp; [$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
-			<p>Roles: [$roles]<span class="chip">{$value}</span>[/$roles]</p>
+			<h3>{$company}</h3>
+			[$projects]
+				<h4>{$date}: {$title}</h4>
+				<p>[$tags]<span class="chip">{$value}</span>[/$tags]</p>
+				?$links
+				<p>[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
+				$links?
+				<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
+			[/$projects]
 		[/$experience]
 		experience}}
 
