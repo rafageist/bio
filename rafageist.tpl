@@ -87,9 +87,9 @@
 	
 		{{contact
 		<h2>Contact</h2>
-		<h1>{$name}</h1>	
+		<b>{$name}</b>	
 		<p>{$phone} | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
-		<p>{$company.name}</p>
+		<p><b>{$company.name}</b></p>
 		<p>{$company.phone} | <a href="{$website}">{$company.link}</a></p>
 		contact}}
 		
