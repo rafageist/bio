@@ -44,7 +44,7 @@
 			}
 			
 			p.item:first-line {
-				text-indent: 0px;
+				text-indent: 0px !important;
 			}
 			
 			
