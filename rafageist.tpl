@@ -27,6 +27,6 @@
 	[$details]
 		<p>{$value}</p>
 	[/$details]
-[$/skills]
+[/$skills]
 </body>
 </html>
