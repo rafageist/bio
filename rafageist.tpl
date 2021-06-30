@@ -80,11 +80,7 @@
 
 		{{education
 		<h2>Education</h2>
-		<ul>
-		[$education]
-			<li>{$date}: {$title}</li>
-		[/$education]
-		</ul>
+		[$education]- {$date}: {$title}<br/> [/$education]
 		education}}
 
 		{{experience
