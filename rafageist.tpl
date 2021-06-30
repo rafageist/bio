@@ -100,12 +100,12 @@
 		[$experience]
 			<h3>{$company}</h3>
 			[$projects]
-				<b>- {$date}: {$title}</b>,
+				<p><b>- {$date}: {$title}</b>,
 				([$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags])
 				?$links
 				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
 				$links?
-				<br/>
+				</p>
 			[/$projects]
 		[/$experience]
 		experience}}
