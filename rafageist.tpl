@@ -14,8 +14,6 @@
 				font-weight: bold;
 				margin-right: 3px;
 				padding: 2px;
-				background: gray;
-				color: white;
 			}
 			
 			li.skill {
