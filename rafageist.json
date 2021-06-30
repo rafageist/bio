@@ -78,21 +78,21 @@
 	"experience": [
 		{
 			"date": "2005-today",
-			"type": "software/research/opensource",
+			"type": "software / research / opensource",
 			"title": "Áncora, Timetabling Solution for Schools",
 			"roles": ["founder", "owner"],
 			"company": "Divengine Software Solutions N.V",
 			"links": ["https://divengine.com"]
 		}, {
 			"date": "2011-today",
-			"type": "entrepreneurship/opensource",
+			"type": "entrepreneurship / opensource",
 			"title": "Div PHP Software Solutions",
 			"roles": ["founder", "developer"],
 			"company": "Divengine Software Solutions N.V",
 			"links": ["https://divengine.com"]
 		}, {
 			"date": "2012-today",
-			"type": "entrepreneurship/startup",
+			"type": "entrepreneurship / startup",
 			"title": "Apretaste!",
 			"roles": ["co-founder", "developer", "influencer"],
 			"company": "Agora Cuba Inc.",
@@ -106,14 +106,14 @@
 			"links": ["https://phpcuba.com", "https://t.me/phpcuba"]
 		},{
 			"date": "2019-today",
-			"type": "ads system/startup",
+			"type": "ads system / startup",
 			"title": "Un revolico en Telegram",
 			"roles": ["founder", "developer"],
 			"company": "Divengine Software Solutions N.V",
 			"links": ["https://t.me/revolico", "https://t.me/revobot"]
 		}, {
 			"date": "2019-today",
-			"type": "sharing market information/community/startup",
+			"type": "sharing market information / community / startup",
 			"title": "Cuba ¿Dónde Hay?",
 			"roles": ["founder", "developer"],
 			"company": "Divengine Software Solutions N.V",
