@@ -20,8 +20,13 @@
 				margin:5px;	
 				border-radius: 5px;
 			}
+			
 			* {
-			font-size: 10px;	
+				font-size: 10px;	
+			}
+			
+			h2 {
+				font-size: 15px !important;
 			}
 		</style>
 	</head>
