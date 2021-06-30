@@ -37,7 +37,7 @@
 		<table width="90%" align="center">
 			<tr>
 				<td valign="top" width="50%">
-					<table width="90%" align="center">
+					<table width="100%" align="left">
 						<tr>
 							<td valign="top">
 								<img class="avatar" src="{$avatar}" height="100">
