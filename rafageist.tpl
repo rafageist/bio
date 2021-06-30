@@ -42,13 +42,12 @@
 			p.item {
 				margin-bottom: 0px;
 				margin-left: 5px;
+				margin-top: 3px;
 			}
 
 		</style>
 	</head>
 	<body>
-		
-		
 		<table width="90%" align="center">
 			<tr>
 				<td valign="top" width="50%">
