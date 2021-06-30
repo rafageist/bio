@@ -67,7 +67,6 @@
 					</table>
 					<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 					(( skills ))
-					(( events ))
 				</td>
 				<td valign="top">
 					(( education ))
@@ -76,7 +75,9 @@
 				</td>
 			</tr>
 		</table>
-
+	
+		(( events ))
+		
 		{{skills
 		<h2>Skills</h2>
 		<table>
@@ -120,9 +121,16 @@
 
 		{{events
 		<h2>Events</h2>
+		<table width ="100%>
+			<tr>
 		[$events]
-			<p><b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]</p>
+			<td width="50%" valign="top">
+			<b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]
+			</td>
+			{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
 		[/$events]
+			</tr>
+		</table>
 		events}}
 	</body>
 </html>
