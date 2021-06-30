@@ -62,11 +62,11 @@
 
 		{{skills
 		<h2>Skills</h2>
-			[$skills]
-				<h3>{$name}</h3>
-				[$details]- {$value}<br/>[/$details]
-				</ul>
-			[/$skills]
+		[$skills]
+			<h3>{$name}</h3>
+			[$details]- {$value}<br/>[/$details]
+			</ul>
+		[/$skills]
 		skills}}
 
 		{{language
