@@ -6,10 +6,11 @@
 				font-family: "Open Sans", Arial, sans-serif;
 			}
 			
-			span.role {
-				background: #eeeee;
-				margin: 5px;
+			span.chip {
+				background: #eeeeee;
+				margin-right: 5px;
 				padding: 5px;
+				border-radius: 3px;
 			}
 			
 			li.skill {
@@ -39,13 +40,13 @@
 				<td valign="top">
 					<h1>{$name}</h1>
 					<p>{$resume}</p>
-					<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
+					<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
 					<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 				</td>
 			</tr>
 		</table>
+		
 		<table width="90%" align="center">
-			
 			<tr>
 				<td valign="top" width="50%">
 					(( skills ))
