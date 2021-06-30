@@ -51,12 +51,12 @@
 						</tr>
 					</table>
 					(( skills ))
+					(( events ))
 				</td>
 				<td valign="top">
 					(( education ))
 					(( language ))
 					(( experience ))
-					(( events ))
 				</td>
 			</tr>
 		</table>
