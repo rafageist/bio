@@ -3,7 +3,7 @@
 		<title>Rafa Rodríguez (@rafageist)</title>
 		<style>
 			body {
-				font-family: "Verdana";
+				font-family: "Open Sans", Arial, sans-serif;
 			}
 			
 			span.role {
