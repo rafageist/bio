@@ -44,6 +44,11 @@
 	<li>{$date}: {$title}</li>
 [/$education]
 </ul>
-
+<h2>Experience</h2>
+[$experience]
+<p>{$date}</p>
+<h3>{$title}</h3>
+<p>{$type}</p>
+[/$experience]
 </body>
 </html>
