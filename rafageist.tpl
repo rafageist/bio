@@ -49,7 +49,15 @@
 				margin-left: 5px;
 				margin-top: 3px;
 			}
-
+			
+			a {
+				color: navy;
+				text-decoration: none;
+			}
+			
+			h2 {
+				color: maroon;
+			}
 		</style>
 	</head>
 	<body onload="window.print();" style="background: gray;">
