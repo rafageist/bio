@@ -25,7 +25,7 @@
 			}
 			
 			* {
-				font-size: 10px;	
+				font-size: 11px;	
 			}
 			
 			h2 {
@@ -52,8 +52,8 @@
 
 		</style>
 	</head>
-	<body onload="window.print();">
-		<table width="90%" align="center">
+	<body onload="window.print();" style="background: gray;">
+		<table width="800" align="center" style="background: white; padding: 20px;">
 			<tr>
 				<td valign="top" width="50%">
 					<table width="100%" align="left">
