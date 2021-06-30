@@ -14,7 +14,7 @@
 			}
 			
 			span.chip2 {
-				background: #gray;
+				background: gray;
 				color: white;
 				margin-right: 5px;
 				padding: 5px;
