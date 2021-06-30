@@ -90,7 +90,7 @@
 		<b>{$name}</b>	
 		<p>{$phone} | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 		<p><b>{$company.name}</b></p>
-		<p>{$company.phone} | <a href="{$website}">{$company.link}</a></p>
+		<p>{$company.phone} | <a href="{$website}">{$company.link} | {$company.location} </a></p>
 		contact}}
 		
 		{{skills
