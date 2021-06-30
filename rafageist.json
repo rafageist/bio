@@ -15,7 +15,7 @@
 	"location": "Paramaribo, Surinam",
 	"skills": [
 		{
-			"name": "Developer / Programmer",
+			"name": "Developer",
 			"details": [
 				"PHP / Drupal / Composer / Laravel / Symfony / Yii / Phalcon",
 				"Javascript / Typescript / NodeJS / NPM / ExpressJS / Sequelize / jQuery / ReactJS / VueJS / Bootstrap / Kendo UI",
@@ -33,7 +33,7 @@
 				"MongoDB"
 			]
 		},{
-			"name": "Software engineering",
+			"name": "Engineering",
 			"details" : [
 				"Rational Unified Process",
 				"Extreme Programming",
@@ -49,7 +49,7 @@
 				"Game theory", "Greedy algorithms", "Trees", "Graphs"
 			]
 		}, {
-			"name": "Servers / Operating systems",
+			"name": "Platforms",
 			"details": [
 				"Windows Desktop / Windows Server", 
 				"Linux / Debian / Ubuntu", 
