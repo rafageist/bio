@@ -43,9 +43,7 @@
 				margin-bottom: 0px;
 				margin-left: 5px;
 			}
-			
-			
-			
+
 		</style>
 	</head>
 	<body>
