@@ -78,9 +78,14 @@
 					(( experience ))
 				</td>
 			</tr>
+			<tr>
+				<td colspan="2">
+				(( events ))
+				</td>
+			</tr>
 		</table>
 	
-		(( events ))
+		
 		
 		{{skills
 		<h2>Skills</h2>
@@ -125,7 +130,7 @@
 
 		{{events
 		<h2>Events</h2>
-		<table width ="90%" align="center">
+		<table width ="100%" align="center">
 			<tr>
 			[$events]
 				<td width="50%" valign="top">
