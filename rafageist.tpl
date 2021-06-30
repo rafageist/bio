@@ -40,11 +40,11 @@
 			}
 			
 			p.item {
-				text-ident: 5px;	
+				text-indent: 5px;	
 			}
 			
 			p.item:first-line {
-				text-ident: 0px;
+				text-indent: 0px;
 			}
 			
 			
