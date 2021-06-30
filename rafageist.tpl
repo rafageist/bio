@@ -18,7 +18,7 @@
 		</style>
 	</head>
 	<body>
-		<table width="100%">
+		<table width="90%" align="center">
 			<tr>
 				<td valign="top">
 					<img src="{$avatar}" width="200">
@@ -31,8 +31,11 @@
 					<p><a href="mailto:{$email}">{$email}</a></p>
 				</td>
 			</tr>
+		</table>
+		<table width="90%" align="center">
+			
 			<tr>
-				<td valign="top">
+				<td valign="top" width="50%">
 					(( skills ))
 					(( language ))
 					(( events ))
