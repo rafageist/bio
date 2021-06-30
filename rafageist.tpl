@@ -31,8 +31,11 @@
 			h2 {
 				font-size: 15px !important;
 			}
-			h4 {
+			h3 {
 				font-size: 12px !important;
+			}
+			h4 {
+				font-size: 11px !important;
 			}
 			
 		</style>
@@ -97,11 +100,12 @@
 		[$experience]
 			<h3>{$company}</h3>
 			[$projects]
-				<h4>{$date}: {$title}</h4>
+				<b>- {$date}: {$title}</b>,
+				([$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags])
 				?$links
-				<p>[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
+				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
 				$links?
-				<p>[$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags]</p>
+				
 			[/$projects]
 		[/$experience]
 		experience}}
