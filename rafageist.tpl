@@ -87,7 +87,7 @@
 		<h3>{$title}</h3>
 		<p>{$date}</p>
 		<p>{$type}</p>
-		<p>Company: {$company} [$links]<a href="{$value}">{$value}</a>[/$links]</p>
+		<p>Company: {$company}<br/>[$links]<a href="{$value}">{$value}</a>[/$links]</p>
 		<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
 		[/$experience]
 		experience}}
