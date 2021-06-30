@@ -101,8 +101,9 @@
 		[$experience]
 			<h3>{$company}</h3>
 			[$projects]
-				<p><b>- {$date}: {$title}</b>,
-				([$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags])
+				<p><b>- {$date}: {$title}</b>,<br/>
+				[$tags]<span class="chip">{$value}</span>[/$tags] <br/>
+				[$roles]<span class="chip2">{$value}</span>[/$roles]
 				?$links
 				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
 				$links?
