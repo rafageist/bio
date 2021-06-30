@@ -52,5 +52,12 @@
 <p>Company: {$company} [$links]<a href="{$value}">{$value}</a>[/$links]</p>
 <p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
 [/$experience]
+<h2>Events</h2>
+[$events]
+<h3>{$description}</h3>
+<p>{$date}</p>
+<p><i>{$location}</i></p>
+<p>[$links]<a href="{$value}">{$value}</a>[/$links]</p>
+[/$events]
 </body>
 </html>
