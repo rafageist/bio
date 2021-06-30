@@ -20,13 +20,16 @@
 				margin:5px;	
 				border-radius: 5px;
 			}
+			* {
+			font-size: 10px;	
+			}
 		</style>
 	</head>
 	<body>
 		<table width="90%" align="center">
 			<tr>
 				<td valign="top">
-					<img class="avatar" src="{$avatar}" width="200">
+					<img class="avatar" src="{$avatar}" height="100">
 				</td>
 				<td valign="top">
 					<h1>{$name}</h1>
@@ -93,10 +96,8 @@
 		{{events
 		<h2>Events</h2>
 		[$events]
-			<h3>{$description}</h3>
-			<p>{$date}</p>
-			<p><i>{$location}</i></p>
-			<p>[$links]<a href="{$value}">{$value}</a>[/$links]</p>
+			<h3>{$date}: {$description}</h3>
+			<p><i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]</p>
 		[/$events]
 		events}}
 	</body>
