@@ -31,10 +31,11 @@
 			<tr>
 				<td valign="top">
 					(( skills ))
-					(( languages ))
+					(( language ))
 					(( events ))
 				</td>
 				<td valign="top">
+					(( education ))
 					(( experience ))
 				</td>
 			</tr>
