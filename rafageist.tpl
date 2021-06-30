@@ -45,6 +45,11 @@
 				margin-left: 5px;
 				margin-top: 3px;
 			}
+			
+			p.item2 {
+				margin-left: 5px;
+				margin-top: 3px;
+			}
 
 		</style>
 	</head>
@@ -108,7 +113,7 @@
 		[$experience]
 			<h3>{$company}</h3>
 			[$projects]
-				<p class="item"><b>{$date}: {$title}</b>,<br/>
+				<p class="item2"><b>{$date}: {$title}</b>,<br/>
 				[$tags]<span class="chip">{$value}</span>[/$tags] <br/>
 				[$roles]<span class="chip2">{$value}</span>[/$roles]
 				?$links <br/>
