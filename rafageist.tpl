@@ -39,6 +39,15 @@
 				font-size: 11px !important;
 			}
 			
+			p.item {
+				text-ident: 5px;	
+			}
+			
+			p.item:first-line {
+				text-ident: 0px;
+			}
+			
+			
 		</style>
 	</head>
 	<body>
