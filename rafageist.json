@@ -116,6 +116,13 @@
 					"title": "Cuba ¿Dónde Hay?",
 					"roles": ["founder", "developer"],
 					"links": ["https://t.me/dondehay", "https://t.me/dondehay_bot"]
+				}, 
+				{
+					"date": "2020-today",
+					"tags": ["search egine","community", "startup"],
+					"title": "Telegram Cuba",
+					"roles": ["founder", "developer"],
+					"links": ["https://tgcuba.com"]
 				}
 			]
 		},
