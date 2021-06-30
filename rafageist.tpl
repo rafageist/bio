@@ -18,16 +18,19 @@
 		</style>
 	</head>
 	<body>
-
-		<img src="{$avatar}" width="200">
-
-		<h1>{$name}</h1>
-		<p>{$resume}</p>
-		<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
-		<p><a href="{$website}">{$website}</a></p>
-		<p><a href="mailto:{$email}">{$email}</a></p>
-
 		<table width="100%">
+			<tr>
+				<td valign="top">
+					<img src="{$avatar}" width="200">
+				</td>
+				<td valign="top">
+					<h1>{$name}</h1>
+					<p>{$resume}</p>
+					<p>[$roles]<span class="role">{$value}</span>[/$roles]</p>
+					<p><a href="{$website}">{$website}</a></p>
+					<p><a href="mailto:{$email}">{$email}</a></p>
+				</td>
+			</tr>
 			<tr>
 				<td valign="top">
 					(( skills ))
