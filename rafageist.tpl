@@ -62,7 +62,7 @@
 								<img class="avatar" src="{$avatar}" width="90%">
 							</td>
 							<td valign="top">
-								<p>{$resume}</p>
+								<p><i>{$resume}</i></p>
 								<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
 								
 							</td>
