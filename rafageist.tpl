@@ -58,6 +58,10 @@
 			h2 {
 				color: maroon;
 			}
+			
+			h1 {
+				font-size: 20px;
+			}
 		</style>
 	</head>
 	<body onload="window.print();" style="background: gray;">
@@ -94,8 +98,8 @@
 		</table>
 	
 		{{contact
+		<h1>{$name}</h1> 
 		<h2>Contact</h2>
-		<b>{$name}</b> 
 		<p>{$company.role} of {$company.name}</p>
 		<p>{$company.phone} | {$company.location}</p>
 		<p><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
