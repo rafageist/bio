@@ -103,7 +103,8 @@
 				?$links
 				<p>[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]</p>
 				$links?
-				<p>[$roles]<span class="chip2">{$value}</span>[/$roles] &nbsp; [$tags]<span class="chip">{$value}</span>[/$tags]</p>
+				<p>[$roles]<span class="chip2">{$value}</span>[/$roles]</p>
+				<p>[$tags]<span class="chip">{$value}</span>[/$tags]</p>
 			[/$projects]
 		[/$experience]
 		experience}}
