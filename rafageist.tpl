@@ -121,14 +121,14 @@
 
 		{{events
 		<h2>Events</h2>
-		<table width ="100%>
+		<table width ="100%">
 			<tr>
-		[$events]
-			<td width="50%" valign="top">
-			<b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]
-			</td>
-			{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
-		[/$events]
+			[$events]
+				<td width="50%" valign="top">
+				<b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]
+				</td>
+				{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
+			[/$events]
 			</tr>
 		</table>
 		events}}
