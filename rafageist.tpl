@@ -64,10 +64,7 @@
 		<h2>Skills</h2>
 			[$skills]
 				<h3>{$name}</h3>
-				<ul>
-				[$details]
-					<li class="skill">{$value}</li>
-				[/$details]
+				[$details]- {$value}<br/>[/$details]
 				</ul>
 			[/$skills]
 		skills}}
