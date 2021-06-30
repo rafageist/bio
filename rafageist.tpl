@@ -30,6 +30,7 @@
 			
 			h2 {
 				font-size: 15px !important;
+				text-decoration: underline;
 			}
 			h3 {
 				font-size: 12px !important;
