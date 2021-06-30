@@ -71,11 +71,7 @@
 
 		{{language
 		<h2>Language</h2>
-		<ul>
-		[$languages]
-			<li>{$name}: {$description}</li>
-		[/$languages]
-		</ul>
+		[$languages]- {$name}: {$description} <br/>[/$languages]
 		language}}
 
 		{{education
