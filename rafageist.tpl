@@ -32,30 +32,31 @@
 		</style>
 	</head>
 	<body>
-		<table width="90%" align="center">
-			<tr>
-				<td valign="top">
-					<img class="avatar" src="{$avatar}" height="100">
-				</td>
-				<td valign="top">
-					<h1>{$name}</h1>
-					<p>{$resume}</p>
-					<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
-					<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
-				</td>
-			</tr>
-		</table>
+		
 		
 		<table width="90%" align="center">
 			<tr>
 				<td valign="top" width="50%">
+					<table width="90%" align="center">
+						<tr>
+							<td valign="top">
+								<img class="avatar" src="{$avatar}" height="100">
+							</td>
+							<td valign="top">
+								<h1>{$name}</h1>
+								<p>{$resume}</p>
+								<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
+								<p><a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+							</td>
+						</tr>
+					</table>
 					(( skills ))
-					(( events ))
 				</td>
 				<td valign="top">
 					(( education ))
 					(( language ))
 					(( experience ))
+					(( events ))
 				</td>
 			</tr>
 		</table>
