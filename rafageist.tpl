@@ -40,7 +40,6 @@
 			}
 			
 			p.item {
-				text-indent: 5px;	
 				margin-bottom: 0px;
 			}
 			
