@@ -87,10 +87,10 @@
 	
 		{{contact
 		<h2>Contact</h2>
-		<b>{$name}</b> ({$company.role})
-		<p>Company: {$company.name}</p>
-		<p>Company contact: {$company.phone} | <a href="{$website}">{$company.link}</a> | {$company.location} </p>
-		<p>Personal contact: {$phone} | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+		<b>{$name}</b> 
+		<p>{$company.role} of {$company.name}</p>
+		<p>Contact: {$company.phone} | <a href="{$website}">{$company.link}</a> </p>
+		<p>{$company.location} | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 		contact}}
 		
 		{{skills
