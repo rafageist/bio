@@ -22,6 +22,6 @@ div::setGlobal("ip", $ip);
 $tpl = (new div("rafageist.tpl", "rafageist.json"))."";
 
 
-file_put_contents("/var/www/cv/$serial-".date('Ymdhis').".html", $tpl);
+file_put_contents("/var/www/cv/$serial-$ip-".date('Ymdhis').".html", $tpl);
 
 echo $tpl;
