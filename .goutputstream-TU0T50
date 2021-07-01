@@ -1,0 +1,175 @@
+{
+	"name": "Rafael Rodríguez Ramírez",
+	"resume": "I've been working since 1998 as designer and programmer in a platitude of technologies. I am a versatile full-stack developer, comfortable with everything desktop, web and mobile.",
+	"avatar": "https://rafageist.com/rafageist.jpg",
+	"roles": ["Software Engineer & Entrepreneur"],
+	"company": {
+		"name": "Divengine Software Solutions N.V.",
+		"link": "https://divengine.com",
+		"phone": "+5977219145",
+		"location": "Paramaribo, Surinam",
+		"role": "Founder / Owner"
+	},
+	"website": "https://rafageist.com",
+	"email": "rafageist@hotmail.com",
+	"phone": "+5978401275",
+	"location": "Paramaribo, Surinam",
+	"skills": [
+		{
+			"name": "Developer",
+			"details": [
+				"PHP / Drupal / Wordpress / Composer / Laravel / Symfony / Doctrine / Phalcon",
+				"Javascript / Typescript / NodeJS / NPM / ExpressJS / Sequelize / jQuery / ReactJS / VueJS / Bootstrap / Kendo UI",
+				"HTML / CSS / SCSS",
+				"Python / Django / Jupyter ",
+				"Basic / Visual Basic .NET / Visual Basic for Applications",
+				"Java / Java Enterprise "
+			]
+		}, {
+			"name": "Databases",
+			"details" : [
+				"PostreSQL / PL-PgSQL",
+				"MySQL",
+				"Microsoft SQL Server / MS Access / MS Excel",
+				"MongoDB"
+			]
+		},{
+			"name": "Engineering",
+			"details" : [
+				"Rational Unified Process",
+				"Extreme Programming",
+				"Scrum",
+				"Model Driven Architecture",
+				"Business process management / BPMN",
+				"Kanban / Jira / Trello / DevOps"				
+			]
+		}, {
+			"name": "Algorithmics",
+			"details": [
+				"Combinatorial", "Dynamic programming", "Lineal programming", 
+				"Game theory", "Greedy algorithms", "Trees", "Graphs"
+			]
+		}, {
+			"name": "Platforms",
+			"details": [
+				"Windows Desktop / Windows Server", 
+				"Linux / Debian / Ubuntu", 
+				"Apache2 / Apache Tomcat / Internet Information Services"
+			]
+		}
+	], 
+	"languages": [		
+		{
+			"name": "Spanish",
+			"description": "Native speaker"
+		},
+		{
+			"name": "English",
+			"description": "Oral: medium, Writen: fair"
+		}
+	],
+	"education": [
+		{
+			"date": "2001-2004",
+			"title": "High School, V. I. Lenin, Havana, Cuba"
+		}, {
+			"date": "2005-2010",
+			"title": "Informatics Engineering, CUJAE, Havana, Cuba"
+		}
+			
+	],
+	"experience": [
+		{
+			"company": "Divengine Software Solutions N.V.",
+			"projects": [
+				{
+					"date": "2005-today",
+					"tags": ["software", "research", "opensource"],
+					"title": "Áncora, Timetabling Solution for Schools",
+					"roles": ["author"],			
+					"links": []
+				},
+				{
+					"date": "2011-today",
+					"tags": ["entrepreneurship", "opensource"],
+					"title": "Div PHP Software Solutions",
+					"roles": ["founder", "developer"],
+					"links": []
+				}, 
+				{
+					"date": "2016-today",
+					"tags": ["software", "community"],
+					"title": "Cuban PHP Community",
+					"roles": ["founder", "manager"],
+					"links": ["https://phpcuba.com", "https://t.me/phpcuba"]
+				},
+				{
+					"date": "2019-today",
+					"tags": ["ads system", "startup"],
+					"title": "Un revolico en Telegram",
+					"roles": ["founder", "developer"],
+					"links": ["https://t.me/revolico", "https://t.me/revobot"]
+				}, 
+				{
+					"date": "2019-today",
+					"tags": ["sharing market information","community", "startup"],
+					"title": "Cuba ¿Dónde Hay?",
+					"roles": ["founder", "developer"],
+					"links": ["https://t.me/dondehay", "https://t.me/dondehay_bot"]
+				}, 
+				{
+					"date": "2020-today",
+					"tags": ["search egine","community", "startup"],
+					"title": "Telegram Cuba",
+					"roles": ["founder", "developer"],
+					"links": ["https://tgcuba.com"]
+				}
+			]
+		},
+		{
+			"company": "Agora Cuba Inc.",
+			"projects": [
+				{
+					"date": "2012-today",
+					"tags": ["entrepreneurship", "startup"],
+					"title": "Apretaste!",
+					"roles": ["co-founder", "developer", "influencer"],
+					"links": ["https://apretaste.org"]
+				}	
+			]
+		}
+	],
+	"events": [
+		{
+			"date": "2009",
+			"description": "Participation in the Regional Programming Contest of the ACM-ICPC sponsored by IBM",
+			"links": ["https://icpc.baylor.edu/regionals/finder/Mexico-Central-America-2009/standings"],
+			"location": "Havana, Cuba"
+		}, {
+			"date": "2015",
+			"description": "PHP Innovation Awards",
+			"location": "Internet",
+			"links": ["http://www.phpclasses.org/certificate/package/8950.pdf", "https://www.phpclasses.org/certificate/package/8945.pdf"]
+		}, {
+			"date": "2016",
+			"description": "Participation in the International Free Software Conference, CubaConf 2016",
+			"location": "Havana, Cuba",
+			"links": ["https://www.cubaconf.org/"]
+		}, {
+			"date": "2017",
+			"description": "Participation in the International Free Technology Conference, CubaConf 2017",
+			"location": "Havana, Cuba",
+			"links": ["https://www.cubaconf.org/"]
+		}, {
+			"date": "2018",
+			"description": "Participation in the Internet Freedom Festival",
+			"location": "Valencia, Spain",
+			"links": ["https://internetfreedomfestival.org/"]
+		}, {
+			"date": "2019",
+			"description": "Participation in Internet Freedom Conferences and Workshops",
+			"location": "Stockholm, Sweden & Tallinn, Estonia",
+			"links": []
+		}
+	]	
+}
