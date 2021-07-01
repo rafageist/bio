@@ -75,14 +75,14 @@
 							</td>
 							<td valign="top">
 								<p><i>{$resume}</i></p>
-								<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
-								
 							</td>
 						</tr>
 					</table>
 					
 					(( skills ))
+					(( events ))
 				</td>
+				
 				<td valign="top">
 					(( contact ))
 					(( education ))
@@ -90,15 +90,11 @@
 					(( experience ))
 				</td>
 			</tr>
-			<tr>
-				<td colspan="2">
-				(( events ))
-				</td>
-			</tr>
 		</table>
 	
 		{{contact
 		<h1>{$name}</h1> 
+		<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
 		<h2>Contact</h2>
 		<p>{$company.role} of {$company.name}</p>
 		<p>{$company.phone} | {$company.location}</p>
@@ -148,16 +144,9 @@
 
 		{{events
 		<h2>Events</h2>
-		<table width ="100%" align="center">
-			<tr>
 			[$events]
-				<td width="50%" valign="top">
-				<b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]
-				</td>
-				{?( {$_order} % 2 === 0 )?} </tr><tr> {/?}
+				<p> <b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]</p>
 			[/$events]
-			</tr>
-		</table>
 		events}}
 	</body>
 </html>
