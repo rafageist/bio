@@ -138,7 +138,7 @@
 				<span class="chip">([$tags]{$value}!$_is_last,&nbsp;$_is_last![/$tags])</span><br/>
 				<span class="chip2">[$roles]{$value}!$_is_last,&nbsp;$_is_last![/$roles]</span>
 				?$links <br/>
-				[$links]<a href="{$value}">{$value}</a>!$_is_last | $_is_last![/$links]
+				[$links]<a href="{$value}">{$value}</a>!$_is_last&nbsp;|&nbsp;$_is_last![/$links]
 				$links?
 				</p>
 			[/$projects]
