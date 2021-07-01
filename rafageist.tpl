@@ -89,11 +89,12 @@
 					(( language ))
 					(( experience ))
 					<br/>
-					
+					<br/>
+					<p align="right"><small><i>build with Div PHP Template Engine at {/div.today:Y-m-d h:i:s/}</i></small></p>			
 				</td>
 			</tr>
 		</table>
-		<p align="right"><small><i>build with Div PHP Template Engine at {/div.today:Y-m-d h:i:s/}</i></small></p>
+		
 		{{contact
 		<h1>{$name}</h1> 
 		<p>[$roles]<span class="chip">{$value}</span>[/$roles]</p>
