@@ -139,7 +139,7 @@
 				[$tags]<span class="chip">{$value}</span> !$_is_last | $_is_last! [/$tags] <br/>
 				[$roles]<span class="chip2">{$value}</span> !$_is_last | $_is_last! [/$roles]
 				?$links <br/>
-				[$links]<a href="{$value}">{$value}</a>&nbsp;[/$links]
+				[$links]<a href="{$value}">{$value}</a>!$_is_last | $_is_last![/$links]
 				$links?
 				</p>
 			[/$projects]
