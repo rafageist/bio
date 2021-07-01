@@ -90,7 +90,7 @@
 					(( experience ))
 					<br/>
 					<br/>
-					<p align="right"><small>downloaded for {$ip} at {/div.now:Y-m-d H:i:s/} EST | SN: {$serial}</small></p>
+					<p align="right" style="color: gray;"><small>downloaded for {$ip} at {/div.now:Y-m-d H:i:s/} EST <br/> SN: {$serial}</small></p>
 				</td>
 			</tr>
 		</table>
@@ -101,7 +101,7 @@
 		<h2>Contact</h2>
 		<p>{$company.role} of {$company.name}</p>
 		<p>{$company.phone} | {$company.location}</p>
-		<p style="color: gray;"><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> <br/> <a href="mailto:{$email}">{$email}</a></p>
+		<p><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
 		contact}}
 		
 		{{skills
