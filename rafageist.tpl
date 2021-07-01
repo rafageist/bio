@@ -88,6 +88,8 @@
 					(( education ))
 					(( language ))
 					(( experience ))
+					<br/>
+					{/div.today:Y-m-d h:i:s/}
 				</td>
 			</tr>
 		</table>
