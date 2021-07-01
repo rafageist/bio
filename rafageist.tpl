@@ -90,7 +90,7 @@
 					(( experience ))
 					<br/>
 					<br/>
-					<p align="right"><small>{/div.now:Y-m-d H:i:s/} EST - for {$ip} - SN:<b>{$serial}</b></small></p>
+					<p align="right"><small>downloaded for {$ip} at {/div.now:Y-m-d H:i:s/} EST | SN: {$serial}</small></p>
 				</td>
 			</tr>
 		</table>
