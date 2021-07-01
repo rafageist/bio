@@ -101,7 +101,7 @@
 		<h2>Contact</h2>
 		<p>{$company.role} of {$company.name}</p>
 		<p>{$company.phone} | {$company.location}</p>
-		<p><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> | <a href="mailto:{$email}">{$email}</a></p>
+		<p style="color: gray;"><a href="{$website}">{$company.link}</a> | <a href="{$website}">{$website}</a> <br/> <a href="mailto:{$email}">{$email}</a></p>
 		contact}}
 		
 		{{skills
