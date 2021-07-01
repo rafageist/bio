@@ -90,9 +90,7 @@
 					(( experience ))
 					<br/>
 					<br/>
-					<p align="right"><small><i>Build with Div PHP Template Engine at <b>{/div.now:Y-m-d H:i:s/} EST</b></i></small></p>			
-					<p align="right"><small><i>You access from <b>{$ip}</b></i></small></p>
-					<p align="right"><small><i>Serial number: <b>{$serial}</b></i></small></p>
+					<p align="right"><small>{/div.now:Y-m-d H:i:s/} EST - for {$ip} - SN:<b>{$serial}</b></small></p>
 				</td>
 			</tr>
 		</table>
