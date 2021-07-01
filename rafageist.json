@@ -143,7 +143,8 @@
 		{
 			"date": "2009",
 			"description": "Participation in the Regional Programming Contest of the ACM-ICPC sponsored by IBM",
-			"links": ["https://icpc.baylor.edu/regionals/finder/Mexico-Central-America-2009/standings"],
+			"links": ["https://icpc.global/regionals/finder/Mexico-Central-America-2009", 
+					 "https://rafageist.com/downloads/rafageist-2009-acm-icpc-certificate-achievement.png"],
 			"location": "Havana, Cuba"
 		}, {
 			"date": "2015",
