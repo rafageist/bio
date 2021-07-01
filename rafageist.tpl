@@ -136,8 +136,8 @@
 			<h3>{$company}</h3>
 			[$projects]
 				<p class="item2"><b>{$date}: {$title}</b><br/>
-				([$tags]<span class="chip">{$value}</span> !$_is_last, $_is_last! [/$tags]) <br/>
-				[$roles]<span class="chip2">{$value}</span> !$_is_last, $_is_last! [/$roles]
+				([$tags]<span class="chip">{$value}</span>!$_is_last, $_is_last![/$tags]) <br/>
+				[$roles]<span class="chip2">{$value}</span>!$_is_last, $_is_last![/$roles]
 				?$links <br/>
 				[$links]<a href="{$value}">{$value}</a>!$_is_last | $_is_last![/$links]
 				$links?
