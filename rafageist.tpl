@@ -89,7 +89,7 @@
 					(( language ))
 					(( experience ))
 					<br/>
-					{/div.today:Y-m-d h:i:s/}
+					<small><i>Build by Div PHP Template Engine at {/div.today:Y-m-d h:i:s/}</i></small>
 				</td>
 			</tr>
 		</table>
