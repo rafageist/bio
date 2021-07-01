@@ -145,7 +145,7 @@
 		{{events
 		<h2>Events</h2>
 			[$events]
-				<p> <b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a> &nbsp; [/$links]</p>
+				<p> <b>{$date}: {$description}</b>, <i>{$location}</i>, [$links]<a href="{$value}">{$value}</a>!$_is_last,&nbsp;$_is_last![/$links]</p>
 			[/$events]
 		events}}
 	</body>
