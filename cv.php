@@ -4,6 +4,8 @@ use divengine\div;
 
 include "div.php";
 
-div::setGlobal("serial", strtoupper(uniqid()));
+$serial = strtoupper(uniqid());
+
+div::setGlobal("serial", $serial);
 
 echo new div("rafageist.tpl", "rafageist.json");
