@@ -90,8 +90,9 @@
 					(( experience ))
 					<br/>
 					<br/>
-					<p align="right"><small><i>build with Div PHP Template Engine at {/div.now:Y-m-d H:i:s/} EST</i></small></p>			
-					<p align="right"><small><i>[copy's serial number: {$serial}]</i></small></p>			
+					<p align="right"><small><i>Build with Div PHP Template Engine at <b>{/div.now:Y-m-d H:i:s/} EST</b></i></small></p>			
+					<p align="right"><small><i>You access from <b>{$ip}</b></i></small></p>
+					<p align="right"><small><i>Serial number: <b>{$serial}</b></i></small></p>
 				</td>
 			</tr>
 		</table>
